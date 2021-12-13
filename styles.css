@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Mulish', sans-serif;
+    margin:0;
 }
 
 /* ******************** HEADER *************************** */
@@ -10,6 +11,7 @@ body{
     height: 600px;
     background-size:cover;
     color: white;
+   
 }
 
 .nav{
@@ -66,6 +68,8 @@ article{
 }
 /* ****************** IMAGES SECTION ****************************** */
 .images{
+    width: 80%;
+    margin: 0 auto;
     padding-top: 60px;
     display: flex;
     flex-wrap: wrap;
@@ -76,25 +80,22 @@ article{
     height: 250px;
     margin: 10px;
     flex-grow: 1;
+    object-fit: cover;
 }
 
 .one{
-    object-fit: cover;
     width: 360px;
 }
 
 .two{
-    object-fit: cover;
     width: 780px;
 }
 
 .three{
-    object-fit: cover;
     width: 780px;
 }
 
 .four{
-    object-fit: cover;
     width: 360px;
  }
 
@@ -105,14 +106,15 @@ article{
 }
 
 .features{
+    width: 85%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    margin: 0 auto;
 }
 
 .flex1{
     text-align: center;
-    flex-basis: 300px;
+    flex-basis: 220px;
     flex-grow: 1;
     padding: 80px;
 }
